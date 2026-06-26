@@ -38,7 +38,7 @@ def load_vectorstore():
 
 @st.cache_resource
 def load_llm():
-    api_key = os.getenv("GROQ_API_KEY")
+    api_key = st.secrets["GROQ_API_KEY"]
     if not api_key:
         return None
     return ChatGroq(model=GROQ_MODEL, api_key=api_key, temperature=0.2)
