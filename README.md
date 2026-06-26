@@ -1,4 +1,4 @@
-# 📚 Semester Textbook Chatbot
+# 📚 Semester Textbook Chatbot/RAG-Based Document Q&A Chatbot
 
 A RAG (Retrieval-Augmented Generation) chatbot that answers questions using your
 own textbook PDFs. Built with LangChain + ChromaDB + Groq (Llama 3.3 70B, free tier).
